@@ -1,0 +1,255 @@
+body {
+    background-image: url("Images/Webpage_Background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Css for the team banner */
+.team-banner {
+    background-image: url("Images/logo_background2.png");
+}
+.team-banner h1 {
+    color: azure;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Css for the Welcome logo */
+
+.logo {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("Images/logo_background2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo h1 {
+    padding: 50px;
+    color: azure;
+}
+/* End of css for the Welcome logo */
+
+/* Css for the rules logo */
+
+.rules {
+    background-image: url("Images/logo_background2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.rules h1 {
+    padding: 25px;
+    padding-left: 65px;
+    padding-right: 65px;
+    color: azure;
+}
+
+
+
+
+/* End of Css for the rules logo */
+
+/* Css for the play button */
+
+.play-button {
+    background-image: url("Images/logo_background2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.play-button h1 {
+    padding: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    color: azure;
+}
+
+
+/* Css for the Rules page */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1em;
+	background-image: url("Images/logo_background2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: azure;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 1em;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.rules_rule{
+    background-image: url("Images/logo_background2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  border: 1px solid #444;
+  padding: 20px;
+  width: 45%;
+  margin: 20px;
+  flex: 50%;
+  box-sizing: border-box;
+  flex-direction: row;
+      color: azure;
+	  	line-height: 4;
+}
+
+.values {
+    background-image: url("Images/logo_background2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  border: 1px solid #444;
+  padding: 20px;
+  width: 45%;
+  margin: 20px;
+  flex: 50%;
+  box-sizing: border-box;
+  flex-direction: row;
+      color: azure;
+	line-height: 2.8;
+}
+
+
+
+h1 {
+  font-size: 2em;
+  	background-image: url("Images/logo_background2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: azure;
+}
+
+h2 {
+  font-size: 1.5em;
+      color: azure;
+}
+
+a:link {
+  color: azure;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: azure;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+/* Css for Play page */
+.play-background {
+    background-image: url("Images/RulesPageBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Blue Chip Css */
+.blue-chip img {
+    width: 100px; 
+    height: auto; 
+}
+
+.blue-chip {
+    position: absolute;
+    left: 30%; 
+    bottom: 0; 
+    transform: translateX(-50%); 
+    transition: transform 0.3s ease; 
+}
+
+/* Red Chip Css */
+
+.red-chip img {
+    width: 90px; 
+    height: auto; 
+}
+
+.red-chip {
+    position: absolute;
+    left: 40%; 
+    bottom: 0; 
+    transform: translateX(-50%); 
+    transition: transform 0.3s ease; 
+}
+
+/* Green Chip Css */
+.green-chip img {
+    width: 90px; 
+    height: auto; 
+}
+
+.green-chip {
+    position: absolute;
+    left: 50%; 
+    bottom: 0; 
+    transform: translateX(-50%); 
+    transition: transform 0.3s ease; 
+}
+
+/* Black Chip Css */
+.black-chip img {
+    width: 112px; 
+    height: auto; 
+}
+
+.black-chip {
+    position: absolute;
+    left: 60%; 
+    bottom: 0; 
+    transform: translateX(-50%); 
+    transition: transform 0.3s ease; 
+}
